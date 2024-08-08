@@ -1,38 +1,38 @@
-// // // const concatMessages = (previouse, current) => {
-// // //   if (!previouse || !current) {
-// // //     return console.log("please check your inputs")
-// // //   }
+// const concatMessages = (previouse, current) => {
+//   if (!previouse || !current) {
+//     return console.log("please check your inputs")
+//   }
 
-// // //   if (typeof previouse !== "string" || typeof current !== "string") {
-// // //     return console.log("please insert suitable type for message")
-// // //   }
+//   if (typeof previouse !== "string" || typeof current !== "string") {
+//     return console.log("please insert suitable type for message")
+//   }
 
-// // //   let result = null;
+//   let result = null;
 
-// // //   setTimeout(() => {
+//   setTimeout(() => {
 
-// // //     result = `${previouse}  ${current}`
+//     result = `${previouse}  ${current}`
 
-// // //   }, Math.floor(Math.random() * 100 + 1));
+//   }, Math.floor(Math.random() * 100 + 1));
 
-// // //   return result
-// // // }
+//   return result
+// }
 
-// // // const concatAllMessages = () => {
-// // //   const firstResult = concatMessages("message(A)", "message(B)")
-// // //   const secondResult = concatMessages(firstResult, "message(C)")
-// // //   const thirdResult = concatMessages(secondResult, "message(D)")
-// // //   const finallResult = concatMessages(thirdResult, "message(E)")
+// const concatAllMessages = () => {
+//   const firstResult = concatMessages("message(A)", "message(B)")
+//   const secondResult = concatMessages(firstResult, "message(C)")
+//   const thirdResult = concatMessages(secondResult, "message(D)")
+//   const finallResult = concatMessages(thirdResult, "message(E)")
 
-// // //   console.log(finallResult)
+//   console.log(finallResult)
 
-// // // }
+// }
 
-// // // concatAllMessages()
+// concatAllMessages()
 
 
 
-// // //CallBack
+//CallBack
 
 const concatMessagesByCallback = (previouse, current, cb) => {
   if (!previouse || !current) {
